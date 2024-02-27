@@ -3,52 +3,17 @@
     padding: 0;
 }
 
-
-.topBox {
-    width: 100%;
-    padding: 15px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: arial;
-    font-size: 40px;
+body {
+    background-image: linear-gradient(to right, lime, orange);
 }
 
-.mainSection {
+section {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.calculator {
-    width: 400px;
-    height: 600px;
-    background-color: #000;
-}
-
-.screen {
-    width: 400px;
-    height: 150px;
-    background-color: #494949;
-    outline: 15px solid #000;
-    outline-offset: -15px;
-}
-
-.buttons {
-    display: flex;
-    flex-direction: column;
-    padding-top: 40px;
-}
-
-
-.buttonRow {
-    display: flex;
-    flex-direction: row;
-}
-
-
-.button {
-    width: 100px;
-    height: 112.5px;
-    background-color: orange;
-    border: #000 solid 2px;
+h1 {
+    font-size: 40px;
 }
