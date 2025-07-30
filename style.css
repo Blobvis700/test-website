@@ -20,12 +20,12 @@ body, html{
 
 #container > h1 {
     margin: 0;
+    border-bottom: 2px #485155 solid;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-#container > hr {
-    width: 30%;
-    margin:  10px auto;
-}
 
 #container a {
     color: #485155;
